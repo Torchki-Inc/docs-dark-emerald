@@ -1,0 +1,15 @@
+[book]
+authors = ["ArZarLordOfMango"]
+language = "en"
+src = "src"
+title = "Docs Dark Emerald"
+
+[output.html]
+mathjax-support = true
+additional-js = ["mermaid.min.js", "mermaid-init.js"]
+no-section-label = true
+
+[preprocessor.mermaid]
+command = "mdbook-mermaid"
+
+
